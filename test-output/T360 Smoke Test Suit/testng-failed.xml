@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [T360 Smoke Test Suit]">
+  <listeners>
+    <listener class-name="org.t360.reports.ExtentReportListener"/>
+  </listeners>
+  <test verbose="4" name="T360 Test(failed)">
+    <classes>
+      <class name="org.t360.tests.TestCases">
+        <methods>
+          <include name="createMatterTest"/>
+          <include name="terminateTest"/>
+          <include name="prepareTest"/>
+          <include name="addMemberToMatter"/>
+        </methods>
+      </class> <!-- org.t360.tests.TestCases -->
+    </classes>
+  </test> <!-- T360 Test(failed) -->
+</suite> <!-- Failed suite [T360 Smoke Test Suit] -->

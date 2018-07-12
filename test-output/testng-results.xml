@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="2" total="7" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="180392" started-at="2018-07-12T04:31:45Z" finished-at="2018-07-12T04:34:45Z">
+    <groups>
+      <group name="Application Functionality">
+        <method signature="MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" class="org.t360.testcases.MatterCreationWorkflowPageTest"/>
+      </group> <!-- Application Functionality -->
+    </groups>
+    <test name="Default test" duration-ms="180392" started-at="2018-07-12T04:31:45Z" finished-at="2018-07-12T04:34:45Z">
+      <class name="org.t360.testcases.MatterCreationWorkflowPageTest">
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="prepareTest" is-config="true" duration-ms="22057" started-at="2018-07-12T10:01:46Z" finished-at="2018-07-12T10:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="FAIL" signature="validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" duration-ms="13480" started-at="2018-07-12T10:02:08Z" description="TestCase ID:3333" data-provider="testData" finished-at="2018-07-12T10:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Temp Matter 20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Temp Network KT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08-Jul-2018]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Not Exsists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[For Creating an Open Matter]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at org.t360.testcases.MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(MatterCreationWorkflowPageTest.java:70)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateMatterWithDataTest -->
+        <test-method status="PASS" signature="terminateTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="terminateTest" is-config="true" duration-ms="2344" started-at="2018-07-12T10:02:21Z" finished-at="2018-07-12T10:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="prepareTest" is-config="true" duration-ms="18835" started-at="2018-07-12T10:02:24Z" finished-at="2018-07-12T10:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="FAIL" signature="validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" duration-ms="12857" started-at="2018-07-12T10:02:42Z" description="TestCase ID:3333" data-provider="testData" finished-at="2018-07-12T10:02:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Temp Matter 21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Temp Network KT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09-Jul-2016]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Close]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Not Exsists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[For Creating a Closed Matter with past date]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at org.t360.testcases.MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(MatterCreationWorkflowPageTest.java:70)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateMatterWithDataTest -->
+        <test-method status="PASS" signature="terminateTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="terminateTest" is-config="true" duration-ms="2366" started-at="2018-07-12T10:02:55Z" finished-at="2018-07-12T10:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="prepareTest" is-config="true" duration-ms="20578" started-at="2018-07-12T10:02:58Z" finished-at="2018-07-12T10:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="FAIL" signature="validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" duration-ms="13022" started-at="2018-07-12T10:03:18Z" description="TestCase ID:3333" data-provider="testData" finished-at="2018-07-12T10:03:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Temp Matter 22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Temp Network KT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10-Jul-2016]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Not Exsists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[For Creating a Pending Matter]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at org.t360.testcases.MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(MatterCreationWorkflowPageTest.java:70)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateMatterWithDataTest -->
+        <test-method status="PASS" signature="terminateTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="terminateTest" is-config="true" duration-ms="2348" started-at="2018-07-12T10:03:31Z" finished-at="2018-07-12T10:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="prepareTest" is-config="true" duration-ms="20535" started-at="2018-07-12T10:03:34Z" finished-at="2018-07-12T10:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="FAIL" signature="validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" duration-ms="12714" started-at="2018-07-12T10:03:54Z" description="TestCase ID:3333" data-provider="testData" finished-at="2018-07-12T10:04:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Temp Matter 23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Temp Network KT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11-Jul-2016]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Not Exsists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[For Creating an Inactive Matter]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at org.t360.testcases.MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(MatterCreationWorkflowPageTest.java:70)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateMatterWithDataTest -->
+        <test-method status="PASS" signature="terminateTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="terminateTest" is-config="true" duration-ms="2087" started-at="2018-07-12T10:04:07Z" finished-at="2018-07-12T10:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="prepareTest" is-config="true" duration-ms="19957" started-at="2018-07-12T10:04:09Z" finished-at="2018-07-12T10:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="FAIL" signature="validateCreateMatterWithDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="validateCreateMatterWithDataTest" duration-ms="14336" started-at="2018-07-12T10:04:29Z" description="TestCase ID:3333" data-provider="testData" finished-at="2018-07-12T10:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jkahdjkfadjkfasjhfajk!@$$&^%&^**kadfjklashfjlhajklfhajkldhflajkhdfjka^%$^$&^&^76556457jkdhksdhgjklhsjklghsjklghjklsdhgjklshgjklshgh jsdhgjklshd gsjkl kjfghjklsfhgjklshfgjkhsfjghsjklfghjklshjklshgjkshghsdfjkghsdfgjklsdfhgjkhsdghsdjklfghsd gjksfhgjkshdfghsd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Temp Network KT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12-Jul-2018]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Open]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Not Exsists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[For Creating a Matter with 257 long String]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:expected [true] but found [false]at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at org.t360.testcases.MatterCreationWorkflowPageTest.validateCreateMatterWithDataTest(MatterCreationWorkflowPageTest.java:70)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateMatterWithDataTest -->
+        <test-method status="PASS" signature="terminateTest()[pri:0, instance:org.t360.testcases.MatterCreationWorkflowPageTest@3a52dba3]" name="terminateTest" is-config="true" duration-ms="2114" started-at="2018-07-12T10:04:43Z" finished-at="2018-07-12T10:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+      </class> <!-- org.t360.testcases.MatterCreationWorkflowPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

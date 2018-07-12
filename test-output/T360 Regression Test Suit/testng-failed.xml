@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [T360 Regression Test Suit]">
+  <listeners>
+    <listener class-name="org.t360.reports.ExtentReportListener"/>
+    <listener class-name="org.t360.result.analyzer.MyTransform"/>
+  </listeners>
+  <test verbose="4" name="T360 Test(failed)">
+    <classes>
+      <class name="org.t360.testcases.LoginPageTest">
+        <methods>
+          <include name="terminateTest"/>
+          <include name="prepareTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- org.t360.testcases.LoginPageTest -->
+      <class name="org.t360.testcases.HomePageTest">
+        <methods>
+          <include name="prepareTest"/>
+          <include name="terminateTest"/>
+          <include name="selectNetworkTest"/>
+        </methods>
+      </class> <!-- org.t360.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- T360 Test(failed) -->
+</suite> <!-- Failed suite [T360 Regression Test Suit] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="T360 Regression Test Suit" verbose="4">
+	
+	 <listeners>
+  			<listener class-name="org.t360.reports.ExtentReportListener" />
+  			<listener class-name="org.t360.result.analyzer.MyTransform" />
+ 	 </listeners>
+	<test name="T360 Test">
+	<classes>
+			<class name="org.t360.testcases.LoginPageTest" />
+			<class name="org.t360.testcases.HomePageTest" />
+		</classes>
+
+	</test>
+</suite>
